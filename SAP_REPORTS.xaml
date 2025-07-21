@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>992,5087</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1304,5087</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SAP_CJI5_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="66">
@@ -146,7 +146,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:WindowScope SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" ApplicationWindow="[wndSAP]" DisplayName="Attach Window - SAP instance" sap:VirtualizedContainerService.HintSize="940,4911" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ba5479ba43e5546dc146972c0eacff6d" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP Easy Access' /&gt;">
+    <ui:WindowScope ApplicationWindow="[wndSAP]" ContinueOnError="{x:Null}" DisplayName="Attach Window - SAP instance" sap:VirtualizedContainerService.HintSize="940,4911" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="ba5479ba43e5546dc146972c0eacff6d" SearchScope="{x:Null}" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP Easy Access' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
       <ui:WindowScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -159,7 +159,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="844,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;CKME - START&quot;]" />
-            <ui:MaximizeWindow DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="844,25" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" Window="[wndSAP]" />
+            <ui:MaximizeWindow ContinueOnError="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="844,25" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" Window="[wndSAP]" />
             <Sequence DisplayName="CKMPRP Change" sap:VirtualizedContainerService.HintSize="844,4407" sap2010:WorkflowViewState.IdRef="Sequence_4">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -180,7 +180,7 @@
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ucas:CallTransaction DisplayName="Call Transaction - CKME" sap:VirtualizedContainerService.HintSize="720,160" sap2010:WorkflowViewState.IdRef="CallTransaction_1" Transaction="CKME">
+                <ucas:CallTransaction ContinueOnError="{x:Null}" DisplayName="Call Transaction - CKME" sap:VirtualizedContainerService.HintSize="720,160" sap2010:WorkflowViewState.IdRef="CallTransaction_1" Transaction="CKME">
                   <ucas:CallTransaction.Target>
                     <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4dec9644-80f9-4b8a-b919-647c380e4d1e" InformativeScreenshot="d0f44ff4a7fbb955def30ef76bdf3e4d">
                       <ui:Target.TimeoutMS>
@@ -192,7 +192,7 @@
                     </ui:Target>
                   </ucas:CallTransaction.Target>
                 </ucas:CallTransaction>
-                <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Maintenance of Future Prices with Conversion for All Valuations" sap:VirtualizedContainerService.HintSize="720,563" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="1d67518a-ab90-411a-a11e-26dc2239f8b5" Version="V2">
+                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Application: Maintenance of Future Prices with Conversion for All Valuations" sap:VirtualizedContainerService.HintSize="720,563" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="1d67518a-ab90-411a-a11e-26dc2239f8b5" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
                   <uix:NApplicationCard.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
@@ -204,7 +204,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ignore threshold values'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1d67518a-ab90-411a-a11e-26dc2239f8b5" Version="V3">
+                        <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Ignore threshold values'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_3" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="1d67518a-ab90-411a-a11e-26dc2239f8b5" Timeout="{x:Null}" Version="V3">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable DesignTimeRectangle="31, 436, 263, 20" DesignTimeScaleFactor="1" ElementType="CheckBox" FriendlyName="'Ignore threshold values'" FullSelectorArgument="&lt;sap id='usr/chkP_CHECK' /&gt;" FuzzySelectorArgument="&lt;sap id='usr/chkP_CHECK' check:text='Ignore threshold values' /&gt;" Guid="e9f89ac2-fd62-4449-9618-34d59557b4b9" InformativeScreenshot="d147fca6ad78fb4274a43798a79fb1b0.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Release Planned Price Changes' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                           </uix:NClick.Target>
@@ -224,7 +224,7 @@
                     <InArgument x:TypeArguments="x:String">False</InArgument>
                   </Assign.Value>
                 </Assign>
-                <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[processingComplete=&quot;False&quot;]" DisplayName="While" sap:VirtualizedContainerService.HintSize="720,3260" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                <ui:InterruptibleWhile Condition="[processingComplete=&quot;False&quot;]" CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="720,3260" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1" MaxIterations="{x:Null}">
                   <ui:InterruptibleWhile.Body>
                     <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="684,3094" sap2010:WorkflowViewState.IdRef="Sequence_29">
                       <sap:WorkflowViewStateService.ViewState>
@@ -238,7 +238,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item" FolderPath="FinanceNA" sap:VirtualizedContainerService.HintSize="560,143" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="NA_Reports" TransactionItem="[transactionitem]" />
+                        <ui:GetQueueItem ContinueOnError="{x:Null}" DisplayName="Get Transaction Item" FolderPath="FinanceNA" sap:VirtualizedContainerService.HintSize="560,143" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="NA_Reports" Reference="{x:Null}" TimeoutMS="{x:Null}" TransactionItem="[transactionitem]" />
                         <If Condition="[transactionitem IsNot Nothing]" sap:VirtualizedContainerService.HintSize="560,2689" sap2010:WorkflowViewState.IdRef="If_1">
                           <If.Then>
                             <Sequence sap:VirtualizedContainerService.HintSize="526,1828" sap2010:WorkflowViewState.IdRef="Sequence_20">
@@ -269,7 +269,7 @@
                                   </scg:List>
                                 </ui:MultipleAssign.AssignOperations>
                               </ui:MultipleAssign>
-                              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into  - Material" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,155" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[Material]">
+                              <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="True" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into  - Material" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,155" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="{x:Null}" SimulateType="True" Text="[Material]">
                                 <ui:TypeInto.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7b7fa559-bc44-4fd1-893c-2c19313be3c6" InformativeScreenshot="2ebce76935d0b101995f2bec3f728e02" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Release Planned Price Changes' /&gt;&lt;sap id='usr/ctxtR_MATNR-LOW' /&gt;" TimeoutMS="5000">
                                     <ui:Target.WaitForReady>
@@ -278,7 +278,7 @@
                                   </ui:Target>
                                 </ui:TypeInto.Target>
                               </ui:TypeInto>
-                              <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into  - Plant" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,155" sap2010:WorkflowViewState.IdRef="TypeInto_18" SimulateType="True" Text="[Plant]">
+                              <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="True" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into  - Plant" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,155" sap2010:WorkflowViewState.IdRef="TypeInto_18" SendWindowMessages="{x:Null}" SimulateType="True" Text="[Plant]">
                                 <ui:TypeInto.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7b7fa559-bc44-4fd1-893c-2c19313be3c6" InformativeScreenshot="5d607704ac51a6eaba08075d2601aca7" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Release Planned Price Changes' /&gt;&lt;sap id='usr/ctxtS_WERKS-LOW' /&gt;" TimeoutMS="5000">
                                     <ui:Target.WaitForReady>
@@ -287,7 +287,7 @@
                                   </ui:Target>
                                 </ui:TypeInto.Target>
                               </ui:TypeInto>
-                              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Maintenance of Future Prices with Conversion for All Valuations" sap:VirtualizedContainerService.HintSize="484,997" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="062bc44a-10ae-4e7c-a6e6-6f59054526e4" Version="V2">
+                              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Application: Maintenance of Future Prices with Conversion for All Valuations" sap:VirtualizedContainerService.HintSize="484,997" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="062bc44a-10ae-4e7c-a6e6-6f59054526e4" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
                                 <uix:NApplicationCard.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
@@ -302,12 +302,12 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button Execute (F8)'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="062bc44a-10ae-4e7c-a6e6-6f59054526e4" Version="V3">
+                                      <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Button Execute (F8)'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="062bc44a-10ae-4e7c-a6e6-6f59054526e4" Timeout="{x:Null}" Version="V3">
                                         <uix:NClick.Target>
                                           <uix:TargetAnchorable DesignTimeRectangle="22, 111, 28, 28" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Button Execute (F8)'" FullSelectorArgument="&lt;sap id='tbar[1]/btn[8]' /&gt;" FuzzySelectorArgument="&lt;sap id='tbar[1]/btn[8]' /&gt;" Guid="08906a3a-064d-4dc5-8cfc-2adce83d4a19" InformativeScreenshot="c3bd5d5f6eb2bea69ff504834c0cbfab.png" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Release Planned Price Changes' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                                         </uix:NClick.Target>
                                       </uix:NClick>
-                                      <ucas:ClickToolbarButton ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" AlterIfDisabled="True" DisplayName="Click Toolbar Button 'Button  Back (F3)'" sap:VirtualizedContainerService.HintSize="388,160" sap2010:WorkflowViewState.IdRef="ClickToolbarButton_1" Item="Enter">
+                                      <ucas:ClickToolbarButton AlterIfDisabled="True" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click Toolbar Button 'Button  Back (F3)'" sap:VirtualizedContainerService.HintSize="388,160" sap2010:WorkflowViewState.IdRef="ClickToolbarButton_1" Item="Back   (F3)">
                                         <ucas:ClickToolbarButton.Items>
                                           <scg:List x:TypeArguments="x:String" Capacity="16">
                                             <x:String>Enter</x:String>
@@ -339,7 +339,7 @@
                                           </ui:Target>
                                         </ucas:ClickToolbarButton.Target>
                                       </ucas:ClickToolbarButton>
-                                      <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="FinanceNA" sap:VirtualizedContainerService.HintSize="388,194" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[transactionitem]">
+                                      <ui:SetTransactionStatus AssociatedFilePath="{x:Null}" ContinueOnError="{x:Null}" Details="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="FinanceNA" sap:VirtualizedContainerService.HintSize="388,194" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" Status="Successful" TimeoutMS="{x:Null}" TransactionItem="[transactionitem]">
                                         <ui:SetTransactionStatus.Analytics>
                                           <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                         </ui:SetTransactionStatus.Analytics>
@@ -374,7 +374,7 @@
                                   <InArgument x:TypeArguments="x:String">True</InArgument>
                                 </Assign.Value>
                               </Assign>
-                              <ui:CloseApplication DisplayName="Close Application - SAP" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="CloseApplication_3">
+                              <ui:CloseApplication ContinueOnError="{x:Null}" DisplayName="Close Application - SAP" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="CloseApplication_3">
                                 <ui:CloseApplication.Target>
                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="994ca2c3-6ef0-4ec1-8116-54a8fa3e37e6" InformativeScreenshot="9aeab55a96ca0dc39f56d129c63f0ff6" Selector="&lt;wnd app='saplogon.exe' /&gt;">
                                     <ui:Target.TimeoutMS>
