@@ -1,5 +1,6 @@
 {
   "name": "CKME-Release Prices",
+  "projectId": "cb8252e0-bc91-4ece-9179-f555b1406fb9",
   "description": "Used after the CKMPRP Bot has Updated standard prices for a month.  To be run on the first day of the new month to manually release prices and reprice inventory.",
   "main": "Main.xaml",
   "dependencies": {
@@ -36,14 +37,13 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "arguments": {
     "input": [],

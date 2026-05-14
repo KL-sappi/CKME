@@ -1,0 +1,6 @@
+{
+  "Name": "CKME-Release Prices",
+  "ProjectType": "Process",
+  "Description": "Used after the CKMPRP Bot has Updated standard prices for a month.  To be run on the first day of the new month to manually release prices and reprice inventory.",
+  "MainFile": "Main.xaml"
+}
